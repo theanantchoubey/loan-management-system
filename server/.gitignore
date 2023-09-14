@@ -1,0 +1,39 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore generated files
+coverage/
+dist/
+build/
+.DS_Store
+
+# Ignore editor and IDE-specific files
+.vscode/
+.idea/
+
+# Ignore configuration files that may contain sensitive information
+config.js
+config.json
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore user-specific files
+*.suo
+*.user
+*.sln.docstates
